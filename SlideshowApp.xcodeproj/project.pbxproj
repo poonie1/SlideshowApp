@@ -13,6 +13,10 @@
 		4637E83D2A8BBDBF00D5C19B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4637E83B2A8BBDBF00D5C19B /* Main.storyboard */; };
 		4637E83F2A8BBDC100D5C19B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4637E83E2A8BBDC100D5C19B /* Assets.xcassets */; };
 		4637E8422A8BBDC100D5C19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4637E8402A8BBDC100D5C19B /* LaunchScreen.storyboard */; };
+		4637E84C2A8E11FB00D5C19B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4637E84B2A8E11FB00D5C19B /* ResultViewController.swift */; };
+		4637E8602A96178B00D5C19B /* Fireworks3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4637E85D2A96178B00D5C19B /* Fireworks3.jpeg */; };
+		4637E8622A96178B00D5C19B /* Fireworks2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4637E85F2A96178B00D5C19B /* Fireworks2.jpeg */; };
+		4637E86A2A9CD12500D5C19B /* Fireworks1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4637E8692A9CD12500D5C19B /* Fireworks1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4637E83E2A8BBDC100D5C19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4637E8412A8BBDC100D5C19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4637E8432A8BBDC100D5C19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4637E84B2A8E11FB00D5C19B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		4637E85D2A96178B00D5C19B /* Fireworks3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks3.jpeg; sourceTree = "<group>"; };
+		4637E85F2A96178B00D5C19B /* Fireworks2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks2.jpeg; sourceTree = "<group>"; };
+		4637E8692A9CD12500D5C19B /* Fireworks1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				4637E8372A8BBDBF00D5C19B /* SceneDelegate.swift */,
 				4637E8392A8BBDBF00D5C19B /* ViewController.swift */,
 				4637E83B2A8BBDBF00D5C19B /* Main.storyboard */,
+				4637E8692A9CD12500D5C19B /* Fireworks1.jpeg */,
+				4637E85F2A96178B00D5C19B /* Fireworks2.jpeg */,
+				4637E85D2A96178B00D5C19B /* Fireworks3.jpeg */,
+				4637E84B2A8E11FB00D5C19B /* ResultViewController.swift */,
 				4637E83E2A8BBDC100D5C19B /* Assets.xcassets */,
 				4637E8402A8BBDC100D5C19B /* LaunchScreen.storyboard */,
 				4637E8432A8BBDC100D5C19B /* Info.plist */,
@@ -125,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4637E86A2A9CD12500D5C19B /* Fireworks1.jpeg in Resources */,
 				4637E8422A8BBDC100D5C19B /* LaunchScreen.storyboard in Resources */,
 				4637E83F2A8BBDC100D5C19B /* Assets.xcassets in Resources */,
+				4637E8602A96178B00D5C19B /* Fireworks3.jpeg in Resources */,
+				4637E8622A96178B00D5C19B /* Fireworks2.jpeg in Resources */,
 				4637E83D2A8BBDBF00D5C19B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				4637E83A2A8BBDBF00D5C19B /* ViewController.swift in Sources */,
 				4637E8362A8BBDBF00D5C19B /* AppDelegate.swift in Sources */,
 				4637E8382A8BBDBF00D5C19B /* SceneDelegate.swift in Sources */,
+				4637E84C2A8E11FB00D5C19B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
