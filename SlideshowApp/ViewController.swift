@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         imageView.image = imageArray[nowIndex]
     }
     
-   
+    
     @IBOutlet weak var backButton: UIButton!
     
     @IBAction func backImage(_ sender: Any) {
@@ -118,23 +118,27 @@ class ViewController: UIViewController {
         //resultViewController.y = 1
         resultViewController.gazou = imageView.image!
         
-        // 停止時の処理を実装
-        // タイマーを停止する
-        timer.invalidate()
-        
-        // タイマーを削除しておく(timer.invalidateだけだとtimerがnilにならないため)
-        timer = nil
-        
-        
-    }
-
-        @IBAction func unwind(_ segue: UIStoryboardSegue) {
-            // 再生時の処理を実装
+        if (timer == nil) {
             
-            // タイマーをセットする
-            timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(changeImage), userInfo: nil, repeats: true)
+        } else {
+            timer.invalidate()
+            
+            timer = nil
+            
+            // ボタンの名前を再生に直しておく
+            startstop.setTitle("再生", for: .normal)
+            
+            // タップ有効化
+            nextButton.isEnabled = true
+            backButton.isEnabled = true
             
         }
         
     }
     
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        
+        }
+        //課題提出 Git ID   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
+        
+    }
